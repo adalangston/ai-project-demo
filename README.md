@@ -17,7 +17,7 @@ Libraries Used: librosa, matplotlib, numpy, IPython.display, torch (Demucs depen
 This project implements a single-layer neural network in PyTorch that predicts the correct form of the German definite article ("der", "die", "das", etc.) based on grammatical features: number (singular/plural), gender (masculine/feminine/neuter), and grammatical case (nominative, accusative, dative, genitive). The model learns to classify all 24 valid combinations with 100% accuracy in just a few training epochs.
 
  ### Key Features:
-- Encodes linguistic input using custom one-hot dictionaries.
+- Encodes linguistic input using custom one-hot vectors.
 - Trains with PyTorch’s nn.Linear, CrossEntropyLoss, and torch.optim.Adam.
 - Achieves full classification accuracy on 24 grammatical combinations in under 10 epochs.
 
