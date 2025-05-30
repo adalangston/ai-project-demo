@@ -1,2 +1,9 @@
-# ai-project-demo
-Music/AI project examples from U of M coursework
+## Projects
+
+# Source Separation
+
+In this project I 
+
+# Prediction
+
+In this project I created 
